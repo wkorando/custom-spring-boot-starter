@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "batch.cli",
+      "type": "com.ibm.developer.security.BatchCommandLineConfigurer",
+      "sourceType": "com.ibm.developer.security.BatchCommandLineConfigurer"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

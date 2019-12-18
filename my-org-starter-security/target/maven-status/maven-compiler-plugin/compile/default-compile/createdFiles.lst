@@ -1,0 +1,5 @@
+META-INF/spring-configuration-metadata.json
+com/ibm/developer/security/WebSecurityConfig.class
+com/ibm/developer/security/NonWebSecurityConfig.class
+com/ibm/developer/security/SecurityConfig.class
+com/ibm/developer/security/BatchCommandLineConfigurer.class
