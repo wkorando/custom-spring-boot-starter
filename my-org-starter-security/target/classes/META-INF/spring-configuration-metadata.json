@@ -1,11 +1,41 @@
 {
   "groups": [
     {
-      "name": "batch.cli",
-      "type": "com.ibm.developer.security.BatchCommandLineConfigurer",
-      "sourceType": "com.ibm.developer.security.BatchCommandLineConfigurer"
+      "name": "my-org.security.cli",
+      "type": "org.my.developer.security.CommandLineSecurityConfigurer",
+      "sourceType": "org.my.developer.security.CommandLineSecurityConfigurer"
+    },
+    {
+      "name": "my-org.web.security",
+      "type": "org.my.developer.security.WebSecurityConfigurer",
+      "sourceType": "org.my.developer.security.WebSecurityConfigurer"
     }
   ],
-  "properties": [],
+  "properties": [
+    {
+      "name": "my-org.security.cli.required-role",
+      "type": "java.lang.String",
+      "description": "A User's Role",
+      "sourceType": "org.my.developer.security.CommandLineSecurityConfigurer"
+    },
+    {
+      "name": "my-org.web.security.admin-endpoints",
+      "type": "java.lang.String[]",
+      "description": "Endpoints that require the ADMIN role to access",
+      "sourceType": "org.my.developer.security.WebSecurityConfigurer"
+    },
+    {
+      "name": "my-org.web.security.unsecured-endpoints",
+      "type": "java.lang.String[]",
+      "description": "Endpoints that have no security requirements.",
+      "sourceType": "org.my.developer.security.WebSecurityConfigurer"
+    },
+    {
+      "name": "my-org.web.security.user-endpoints",
+      "type": "java.lang.String[]",
+      "description": "Endpoints that require the USER role to access",
+      "sourceType": "org.my.developer.security.WebSecurityConfigurer"
+    }
+  ],
   "hints": []
 }

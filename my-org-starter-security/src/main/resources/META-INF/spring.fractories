@@ -1,4 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.ibm.developer.security.SecurityConfig,\
-com.ibm.developer.security.WebSecurityConfig,\
-com.ibm.developer.security.NonWebSecurityConfig

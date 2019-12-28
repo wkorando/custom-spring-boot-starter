@@ -10,8 +10,8 @@
 
 	<modules>
 		<module>my-org-starter-security</module>
-		<module>my-web-app</module>
-		<module>my-batch-app</module>
+		<module>my-org-web-app</module>
+		<module>my-org-console-app</module>
+		<module>my-org-parent</module>
 	</modules>
-
 </project>
