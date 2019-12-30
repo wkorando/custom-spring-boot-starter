@@ -15,8 +15,10 @@ public class WebSecurityConfigurer {
 	private String[] adminEndpoints = new String[] {};
 	/**
 	 * Endpoints that have no security requirements.
+	 *
+	 * Default value: /public**
 	 */
-	private String[] unsecuredEndpoints = new String[] {};
+	private String[] unsecuredEndpoints = new String[] {"/public**"};
 
 	public String[] getUserEndpoints() {
 		return userEndpoints;

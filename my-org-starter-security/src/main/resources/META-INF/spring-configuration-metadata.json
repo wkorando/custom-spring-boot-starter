@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"name": "my-org.security.cli",
+			"name": "my-org.cli.security",
 			"type": "org.my.developer.security.CommandLineSecurityConfigurer"
 		},
 		{
@@ -11,14 +11,14 @@
 	],
 	"properties": [
 		{
-			"name": "my-org.security.cli.required-role",
+			"name": "my-org.cli.security.required-role",
 			"type": "java.lang.String",
-			"description": "The role a user must have to run the application"
+			"description": "The role a user must have to run the application."
 		}
 	],
 	"hints": [
 		{
-			"name": "my-org.security.cli.required-role",
+			"name": "my-org.cli.security.required-role",
 			"values": [
 				{
 					"value": "USER",

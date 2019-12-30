@@ -1,5 +1,6 @@
-/Users/William.Korando@ibm.com/code/custom-spring-boot-starter/my-org-starter-security/src/main/java/com/ibm/developer/security/NonWebSecurityConfig.java
-/Users/William.Korando@ibm.com/code/custom-spring-boot-starter/my-org-starter-security/src/main/java/com/ibm/developer/security/BatchCommandLineConfigurer.java
-/Users/William.Korando@ibm.com/code/custom-spring-boot-starter/my-org-starter-security/src/main/java/com/ibm/developer/security/WebSecurityConfigurer.java
-/Users/William.Korando@ibm.com/code/custom-spring-boot-starter/my-org-starter-security/src/main/java/com/ibm/developer/security/SecurityConfig.java
-/Users/William.Korando@ibm.com/code/custom-spring-boot-starter/my-org-starter-security/src/main/java/com/ibm/developer/security/WebSecurityConfig.java
+/Users/William.Korando@ibm.com/code/custom-spring-boot-starter/my-org-starter-security/src/main/java/org/my/developer/security/WebSecurityConfigurer.java
+/Users/William.Korando@ibm.com/code/custom-spring-boot-starter/my-org-starter-security/src/main/java/org/my/developer/security/SecureCommandLineRunner.java
+/Users/William.Korando@ibm.com/code/custom-spring-boot-starter/my-org-starter-security/src/main/java/org/my/developer/security/SecurityConfig.java
+/Users/William.Korando@ibm.com/code/custom-spring-boot-starter/my-org-starter-security/src/main/java/org/my/developer/security/WebSecurityConfig.java
+/Users/William.Korando@ibm.com/code/custom-spring-boot-starter/my-org-starter-security/src/main/java/org/my/developer/security/NonWebSecurityConfig.java
+/Users/William.Korando@ibm.com/code/custom-spring-boot-starter/my-org-starter-security/src/main/java/org/my/developer/security/CommandLineSecurityConfigurer.java

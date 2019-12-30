@@ -1,7 +1,7 @@
 {
   "groups": [
     {
-      "name": "my-org.security.cli",
+      "name": "my-org.cli.security",
       "type": "org.my.developer.security.CommandLineSecurityConfigurer",
       "sourceType": "org.my.developer.security.CommandLineSecurityConfigurer"
     },
@@ -13,9 +13,9 @@
   ],
   "properties": [
     {
-      "name": "my-org.security.cli.required-role",
+      "name": "my-org.cli.security.required-role",
       "type": "java.lang.String",
-      "description": "A User's Role",
+      "description": "The role a user must have to run the application.",
       "sourceType": "org.my.developer.security.CommandLineSecurityConfigurer"
     },
     {
@@ -27,7 +27,7 @@
     {
       "name": "my-org.web.security.unsecured-endpoints",
       "type": "java.lang.String[]",
-      "description": "Endpoints that have no security requirements.",
+      "description": "Endpoints that have no security requirements. Default value: \/public**",
       "sourceType": "org.my.developer.security.WebSecurityConfigurer"
     },
     {

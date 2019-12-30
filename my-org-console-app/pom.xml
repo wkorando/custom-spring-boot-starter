@@ -22,12 +22,6 @@
 		<dependency>
 			<groupId>org.my.developer</groupId>
 			<artifactId>my-org-starter-security</artifactId>
-			<exclusions>
-				<exclusion>
-					<groupId>org.springframework.security</groupId>
-					<artifactId>spring-security-web</artifactId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 	</dependencies>
 

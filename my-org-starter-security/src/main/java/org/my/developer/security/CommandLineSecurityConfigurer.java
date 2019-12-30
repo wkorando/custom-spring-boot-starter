@@ -2,11 +2,11 @@ package org.my.developer.security;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties(prefix = "my-org.security.cli")
+@ConfigurationProperties("my-org.cli.security")
 public class CommandLineSecurityConfigurer {
 
 	/**
-	 * A User's Role
+	 * The role a user must have to run the application.
 	 */
 	private String requiredRole;
 
